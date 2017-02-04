@@ -13,7 +13,7 @@ HEX      =  $(BINDIR)/$(PROJNAME).hex
 
 # Building helpers
 CC       =  avr-gcc
-CFLAGS   =  -mmcu=atmega2560 -DF_CPU=16000000UL -O0 -c
+CFLAGS   =  -mmcu=atmega2560 -DF_CPU=16000000UL -O1 -c
 LDFLAGS  =  -mmcu=atmega2560
 
 
